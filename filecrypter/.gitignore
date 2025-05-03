@@ -1,0 +1,19 @@
+# Built files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Gradle files
+.gradle/
+build/
+
+# Android Studio files
+.idea/
+*.iml
+local.properties
+
+# Other
+*.log
+*.swp
+.DS_Store
