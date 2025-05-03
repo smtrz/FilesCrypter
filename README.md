@@ -12,14 +12,36 @@ A Kotlin-based utility for encrypting and decrypting multiple files asynchronous
 - Graceful error handling and status reporting.
 - Works seamlessly with `ICryptoManager` via Koin DI.
 
-## Requirements
+## Some Libraries used
 
 - Kotlin
 - Coroutines
 - Koin (Dependency Injection)
 - Timber (Logging)
-- 
+
 ## Usage
+### Adding the Library to the Project
+
+Step 1. Add it in your settings.gradle.kts at the end of repositories:
+
+```kotlin
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url = uri("https://jitpack.io") }
+		}
+	}
+
+```
+Step 2. Add the library to the dependencies:
+
+```kotlin
+	dependencies {
+		implementation("com.github.smtrz:FilesCrypter:v1.0.0")
+	}
+```
+**Note:** Always use the latest release of the library.
 
 ### 1. Initialize with a list of files:
 

@@ -62,6 +62,9 @@ dependencies {
     implementation(libs.lifecycle.viewmodel.ktx)
     implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.coroutines.android)
-    implementation(project(":filecrypter"))
+    // from the library module itself
+    //  implementation(project(":filecrypter"))
+    // Use directly via jitpack from github repository
+    implementation("com.github.smtrz:FilesCrypter:v1.0.0")
 
 }
