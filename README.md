@@ -1,5 +1,7 @@
 
 # FileCrypter - Batch File Encryption & Decryption
+![Kotlin](https://img.shields.io/badge/Kotlin-2.1.10-blue.svg)
+![License](https://img.shields.io/github/license/smtrz/FilesCrypter)
 
 A Kotlin-based utility for encrypting and decrypting multiple files asynchronously using coroutines. Designed to work efficiently in Android or backend projects that require secure batch processing of files with proper lifecycle handling and progress updates.
 
